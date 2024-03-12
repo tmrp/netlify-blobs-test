@@ -1,3 +1,7 @@
+[[edge_functions]]
+function = "get-blob-data"
+path = "/api/get-blob-data"
+
 [dev]
 edge_functions = "apps/some-web-app/netlify/edge-functions"
 
