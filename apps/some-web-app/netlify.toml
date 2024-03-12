@@ -1,0 +1,5 @@
+[dev]
+edge_functions = "apps/some-web-app/netlify/edge-functions"
+
+[build]
+edge_functions = "apps/some-web-app/netlify/edge-functions"

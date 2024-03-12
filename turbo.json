@@ -1,0 +1,30 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".next/**"],
+      "outputMode": "new-only"
+    },
+    "lint": {
+      "outputMode": "new-only"
+    },
+    "typecheck": {
+      "outputMode": "new-only"
+    },
+    "test": {
+      "outputMode": "new-only"
+    },
+    "e2e": {
+      "outputMode": "new-only"
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "start": {
+      "cache": false,
+      "persistent": true
+    }
+  }
+}
